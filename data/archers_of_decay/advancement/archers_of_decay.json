@@ -1,0 +1,28 @@
+{
+  "display": {
+    "title": "${displayName} - ${version}",
+    "description": "",
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 3484199,
+          "custom_effects": [
+            {
+              "id": "minecraft:wither",
+              "duration": 200
+            }
+          ]
+        }
+      }
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "foxcraft:root",
+  "criteria": {
+    "on_tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

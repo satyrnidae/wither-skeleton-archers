@@ -1,0 +1,22 @@
+{
+  "display": {
+    "title": "satyrnidae",
+    "description": "",
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "satyrnidae"
+        }
+      }
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:root",
+  "criteria": {
+    "on_tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

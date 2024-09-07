@@ -114,7 +114,7 @@ try {
 
         Push-Location ./temp/datapack/
         try {
-            Compress-Archive @('./data/**/*','pack.mcmeta','./pack.png','LICENSE') "../../$DataZipName" -Verbose:$VerbosePreference -ErrorAction:$ErrorActionPreference
+            Compress-Archive @('./data','pack.mcmeta','./pack.png','LICENSE') "../../$DataZipName" -Verbose:$VerbosePreference -ErrorAction:$ErrorActionPreference
         } finally {
             Pop-Location
         }
@@ -134,7 +134,7 @@ try {
 
         Push-Location ./temp/resourcepack/
         try {
-            Compress-Archive @('./assets/**/*','pack.mcmeta','pack.png','LICENSE') "../../$ResourceZipName" -Verbose:$VerbosePreference -ErrorAction:$ErrorActionPreference
+            Compress-Archive @('./assets','pack.mcmeta','pack.png','LICENSE') "../../$ResourceZipName" -Verbose:$VerbosePreference -ErrorAction:$ErrorActionPreference
         } finally {
             Pop-Location
         }

@@ -1,23 +1,23 @@
 {
     "spyglassmc.env.gameVersion": "1.21.1",
-    "peacock.color": "#7b1800",
+    "peacock.color": "#46262c",
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#ae2200",
-        "activityBar.background": "#ae2200",
+        "activityBar.activeBackground": "#673841",
+        "activityBar.background": "#673841",
         "activityBar.foreground": "#e7e7e7",
         "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#002006",
+        "activityBarBadge.background": "#000000",
         "activityBarBadge.foreground": "#e7e7e7",
         "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#ae2200",
-        "statusBar.background": "#7b1800",
+        "sash.hoverBorder": "#673841",
+        "statusBar.background": "#46262c",
         "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#ae2200",
-        "statusBarItem.remoteBackground": "#7b1800",
+        "statusBarItem.hoverBackground": "#673841",
+        "statusBarItem.remoteBackground": "#46262c",
         "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#7b1800",
+        "titleBar.activeBackground": "#46262c",
         "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#7b180099",
+        "titleBar.inactiveBackground": "#46262c99",
         "titleBar.inactiveForeground": "#e7e7e799"
     }
 }

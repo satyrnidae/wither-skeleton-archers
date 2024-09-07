@@ -1,0 +1,41 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:skeleton_spawn_egg"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": "minecraft:skeleton_spawn_egg"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "dev_satyrn.archers_of_decay.used_skeleton_spawn_egg": {
+          "min": 1
+        }
+      }
+    }
+  ]
+}

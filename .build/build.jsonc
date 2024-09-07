@@ -9,33 +9,36 @@
     ,"quilt.mod.json"
     ,"resourcepack.mcmeta"
     // Add custom entries here. File names must match exactly.
+    ,"data/archers_of_decay/advancement/archers_of_decay.json"
+    ,"data/archers_of_decay/function/load.mcfunction"
+    ,"data/archers_of_decay/function/objectives/init_config.mcfunction"
   ],
   // Datapack / Mod options
   // The output datapack / mod file will be named based on this value.
-  "baseArchiveName": "datapack-mod-template",
+  "baseArchiveName": "archers-of-decay-datapack",
   "author": {
-    "name": "your name here",
-    "email": "email here",
-    "website": "your website here"
+    "name": "satyrnidae",
+    "email": "isabel@satyrn.dev",
+    "website": "https://satyrn.dev/"
   },
-  "modId": "datapack_mod_template",
-  "displayName": "Datapack + Mod Template",
+  "modId": "archers_of_decay",
+  "displayName": "Archers of Decay",
   "version": "1.0.0",
   "license": {
-    "name": "The MIT No Attribution License",
-    "id": "MIT-0",
+    "name": "MIT License",
+    "id": "MIT",
     "version": "N/A",
-    "url": "https://github.com/aws/mit-0",
-    "description": "The \\\"MIT No Attribution\\\" or \\\"MIT-0\\\" license is a modification to the usual MIT license that removes the requirement for attribution. It is roughly the same as an MIT license consisting of a sandwich of (paragraph, line, paragraph), but it is missing the middle line of the 'sandwich'."
+    "url": "https://spdx.org/licenses/MIT.html",
+    "description": "The MIT License is a permissive open-source software license."
   },
-  "description": "Template for data packs with built-in mod loader support",
+  "description": "Adds Minecraft Dungeons-inspired wither skeleton archers to the nether!\\nThis is part of the Foxcraft Customizations collection.",
   "sites": {
     // Source code hosted here
-    "sources": "https://github.com/satyrnidae/datapack-mod-template/",
+    "sources": "https://github.com/satyrnidae/wither-skeleton-archers",
     // Issue tracker. Used for both this and mod menu integrations.
-    "issueTracker": "https://github.com/satyrnidae/datapack-mod-template/issues",
+    "issueTracker": "https://github.com/satyrnidae/wither-skeleton-archers/issues",
     // Releases hosted here; for example, a Modrinth/CurseForge page, or a Github/GitLab release page.
-    "releases": "https://github.com/satyrnidae/datapack-mod-template/releases"
+    "releases": "https://github.com/satyrnidae/wither-skeleton-archers/releases"
   },
   // Forge / NeoForge credit string. Optional.
   "credits": null,
@@ -52,4 +55,6 @@
       "maxInclusive": 36
     }
   }
+  // These are specific to archers of decay
+  ,"config_schema": 1
 }

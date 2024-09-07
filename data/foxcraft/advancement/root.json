@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": "Foxcraft Customizations",
+    "description": "",
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM1MjY0OTQzMDA4ZjU3Y2YwMmY1NDUxYzNmMzBkN2U2ZWRhY2U5NTYxOTg5ODEwMjk4ZmNmNmQ5Zjk1ZjFlYiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:dev_satyrn",
+  "criteria": {
+    "on_tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
