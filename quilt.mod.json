@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "${modId}",
+    "version": "${version}+mod",
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "metadata": {
+      "name": "${displayName} (QuiltMC)",
+      "description": "${description}",
+      "contributors": {
+        "${author.name}": "Owner"
+      },
+      "contact": {
+        "email": "${author.email}",
+        "homepage": "${sites.releases}",
+        "issues": "${sites.issueTracker}",
+        "sources": "${sites.sources}"
+      },
+      "license": {
+        "name": "${license.name}",
+        "id": "${license.id}",
+        "url": "${license.url}",
+        "description": "${license.description}"
+      },
+      "icon": "pack.png"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "${modId}",
+  "version": "${version}+mod",
+  "name": "${displayName} (FabricMC)",
+  "description": "${description}",
+  "authors": [
+    {
+      "name": "${author.name}",
+      "contact": {
+        "email": "${author.email}",
+        "homepage": "${author.website}"
+      }
+    }
+  ],
+  "contact": {
+    "email": "${author.email}",
+    "homepage": "${sites.releases}",
+    "issues": "${sites.issueTracker}",
+    "sources": "${sites.sources}"
+  },
+  "license": "${license.id}",
+  "icon": "pack.png"
+}

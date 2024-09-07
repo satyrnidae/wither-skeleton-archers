@@ -1,0 +1,55 @@
+{
+  // Build options
+  "jdkHome": "C:\\Programs\\Java\\temurinjdk-21+35",
+  "expandOpts": [
+     "META-INF/mods.toml"
+    ,"META-INF/neoforge.mods.toml"
+    ,"fabric.mod.json"
+    ,"pack.mcmeta"
+    ,"quilt.mod.json"
+    ,"resourcepack.mcmeta"
+    // Add custom entries here. File names must match exactly.
+  ],
+  // Datapack / Mod options
+  // The output datapack / mod file will be named based on this value.
+  "baseArchiveName": "datapack-mod-template",
+  "author": {
+    "name": "your name here",
+    "email": "email here",
+    "website": "your website here"
+  },
+  "modId": "datapack_mod_template",
+  "displayName": "Datapack + Mod Template",
+  "version": "1.0.0",
+  "license": {
+    "name": "The MIT No Attribution License",
+    "id": "MIT-0",
+    "version": "N/A",
+    "url": "https://github.com/aws/mit-0",
+    "description": "The \\\"MIT No Attribution\\\" or \\\"MIT-0\\\" license is a modification to the usual MIT license that removes the requirement for attribution. It is roughly the same as an MIT license consisting of a sandwich of (paragraph, line, paragraph), but it is missing the middle line of the 'sandwich'."
+  },
+  "description": "Template for data packs with built-in mod loader support",
+  "sites": {
+    // Source code hosted here
+    "sources": "https://github.com/satyrnidae/datapack-mod-template/",
+    // Issue tracker. Used for both this and mod menu integrations.
+    "issueTracker": "https://github.com/satyrnidae/datapack-mod-template/issues",
+    // Releases hosted here; for example, a Modrinth/CurseForge page, or a Github/GitLab release page.
+    "releases": "https://github.com/satyrnidae/datapack-mod-template/releases"
+  },
+  // Forge / NeoForge credit string. Optional.
+  "credits": null,
+  // Quilt-loader specific and required; the maven group of this datapack.
+  "group": "dev.satyrn",
+  // Pack options. See https://minecraft.wiki/w/Pack_format for more info.
+  "dataPack": {
+    "format": 48
+  },
+  "resourcePack": {
+    "format": 34,
+    "supportedFormats": {
+      "minInclusive": 34,
+      "maxInclusive": 36
+    }
+  }
+}

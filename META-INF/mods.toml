@@ -1,0 +1,14 @@
+modloader="javafml"
+loaderVersion="[51,)"
+license="${license.id}"
+showAsResourcePack=true
+issueTrackerUrl="${sites.issueTracker}"
+
+[[mods]]
+modId="${version}"
+version="${version}+mod"
+displayName="${displayName} (Forge)"
+logoFile="pack.png"
+credits="${credits}"
+authors="${author.name}"
+displayUrl="${sites.releases}"

@@ -1,0 +1,6 @@
+# Build files
+.build/*
+
+# Don't skip toolchain files
+!.build/build.jsonc
+!.build/build.ps1

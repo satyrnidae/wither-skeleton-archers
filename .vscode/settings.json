@@ -1,0 +1,23 @@
+{
+    "spyglassmc.env.gameVersion": "1.21.1",
+    "peacock.color": "#7b1800",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#ae2200",
+        "activityBar.background": "#ae2200",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#002006",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#ae2200",
+        "statusBar.background": "#7b1800",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#ae2200",
+        "statusBarItem.remoteBackground": "#7b1800",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#7b1800",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#7b180099",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }
+}

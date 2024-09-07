@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="${license.id}"
+showAsResourcePack=true
+showAsDataPack=true
+issueTrackerUrl="${sites.issueTracker}"
+
+[[mods]]
+modId="${modId}"
+version="${version}+mod"
+displayName="${displayName} (NeoForge)"
+logoFile="pack.png"
+credits="${credits}"
+authors="${author.name}"
+modUrl="${sites.releases}"
+displayUrl="${sites.releases}"

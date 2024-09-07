@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "description": [
+            {"text": "Resources for ${displayName} v${version}"},
+            {"text": "By ${author.name}"}
+        ],
+        "pack_format": ${resourcePack.format},
+        "supported_formats": {
+            "min_inclusive": ${resourcePack.supportedFormats.minInclusive},
+            "max_inclusive": ${resourcePack.supportedFormats.maxInclusive}
+        }
+    }
+}

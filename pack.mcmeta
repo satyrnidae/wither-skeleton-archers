@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "{\"text\":\"${displayName}\"}",
+        "pack_format": ${datapack.format}
+    }
+}
